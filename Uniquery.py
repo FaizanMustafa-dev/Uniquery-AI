@@ -311,7 +311,7 @@ def quiz_master():
         st.session_state.answers = {}
 
     # Fetch questions from API
-    if st.button("Fetch Questions from API"):
+    if st.button("Make Quiz"):
         if not topic.strip():
             st.error("Please enter a valid topic.")
         else:
