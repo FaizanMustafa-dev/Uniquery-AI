@@ -14,8 +14,8 @@ st.set_page_config(
 )
 
 # API Details (replace with actual API key)
-API_URL = ""
-API_KEY = ""
+API_URL = "https://api.groq.com/openai/v1/chat/completions"
+API_KEY = "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"
 
 # Custom CSS for Sidebar and Main Content
 st.markdown("""
